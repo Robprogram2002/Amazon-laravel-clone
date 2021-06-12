@@ -1,0 +1,78 @@
+.numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+  width: 90%;
+  margin: 1.5rem auto;
+}
+
+.numbers input {
+  display: block;
+  padding: 10px;
+  margin: 0.5rem auto;
+  width: 100%;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1rem;
+  width: 90%;
+  margin: 1.5rem auto;
+}
+
+.tags select,
+.tags input {
+  display: block;
+  padding: 10px;
+  margin: 0.5rem;
+  width: 100%;
+}
+
+.specifics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1.2rem;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.specifics input {
+  display: block;
+  padding: 10px;
+  margin: 0.5rem auto;
+  width: 100%;
+}
+
+.images-container {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.images-container input {
+  width: 400px !important;
+  border: 0.5px solid #808080;
+  border-radius: 4px;
+  background-color: white;
+  color: #333333;
+}
+
+.images-container .others {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.2rem;
+}
+
+h4.product-section {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+

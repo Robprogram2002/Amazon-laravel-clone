@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/appStyle.css": "/css/appStyle.css",
+    "/css/registerStyle.css": "/css/registerStyle.css",
+    "/css/adminStyle.css": "/css/adminStyle.css",
+    "/css/products.css": "/css/products.css",
+    "/css/new-category.css": "/css/new-category.css",
+    "/css/productStyle.css": "/css/productStyle.css",
+    "/css/comment-form.css": "/css/comment-form.css",
+    "/css/cartStyle.css": "/css/cartStyle.css",
+    "/css/wish-form.css": "/css/wish-form.css"
+}

@@ -1,0 +1,24 @@
+.content-category .main-section .header {
+    position: relative;
+    max-height: 300px;
+    height: 300px;
+    margin-right: 0.5rem;
+}
+  
+.content-category .main-section #header-carousel .carousel-item {
+    height: 300px;
+}
+  
+.content-category .main-section #header-carousel img {
+    max-height: 100%;
+    z-index: 1 !important;
+}
+
+.content-category .main-section #header-carousel .carousel-item h4{
+    color: white;
+    font-size: 3rem;
+}
+
+.content-category .main-section #header-carousel .carousel-item p {
+    color: #b6b6b6;
+}

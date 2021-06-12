@@ -1,0 +1,284 @@
+
+.admin-container {
+    min-width: 100%;
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .alert-success {
+        font-size: 1rem;
+        font-weight: normal;
+        color: white;
+        background-color: #35e085;
+        padding: 10px;
+    }
+
+    .category-create {
+        width: 100%;
+        margin-bottom: 2rem;
+
+        .input-container {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        label {
+            align-self: flex-start;
+            margin-left: 8rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: black;
+            padding: 0.5rem;
+        }
+
+        input, textarea, select {
+            display: block;
+            padding: 10px;
+            margin-bottom: 1rem;
+            width: 85%;
+        }
+
+        input[type=submit] {
+            width: 50%;
+            background-color: #232f3e;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            &:hover {
+                background-color: #131921;
+            }
+        }
+    }
+
+    .category-list {
+        margin: 2rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1rem !important;
+        grid-row-gap: 1rem !important;
+        width: 85%;
+        text-align: justify;
+
+        .category-info {
+            box-shadow: 0px 3px 5px #272727;
+            display: grid;
+            grid-template-columns: 65% 35%;
+            height: 200px;
+            border-radius: 6px;
+
+            .text {
+                padding: 10px;
+                height: 200px;
+
+                h4 {
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    margin-bottom: 1rem;
+                }
+
+                a {
+                    font-size: 1rem;
+                    font-weight: bold;
+                    padding: 10px;
+                    color: white;
+                    background-color: #e47911;
+                    border-radius: 5px;
+                    display: block;
+                    width: fit-content;
+                    margin-top:1rem ;
+                    &:hover {
+                        background-color: #cc6d0dfa;
+                        transform: scale(1.1);
+                        transition: 0.4s;
+                    }
+                }
+            }
+
+            img {
+                width: 100%;
+                max-height: 200px;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+
+
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        color: #e47911;
+        font-family: fantasy;
+        padding: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1.4rem;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+    }
+}
+
+.detail-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 1fr;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+
+    h2 {
+        font-size: 1.4rem;
+        color: black;
+        font-family: fantasy;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1.4rem;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        width: 85%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    img {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .links {
+        margin: 1.5rem 0;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: row;
+
+        a {
+            font-size: 0.8rem;
+            font-weight: bold;
+            padding: 8px;
+            color: white;
+            background-color: #e47911;
+            border-radius: 5px;
+            display: block;
+            width: fit-content;
+            margin: 0 1.5rem;
+            &:hover {
+                background-color: #cc6d0dfa;
+                transform: scale(1.1);
+                transition: 0.4s;
+            }
+        }
+    }
+}
+
+.sub-category-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.2rem;
+    padding: 2rem;
+
+    .content {
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 0px 3px 5px #272727;
+
+        h3 {
+            font-size: 1.2rem;
+            color: black;
+            font-weight: bold;
+        }
+
+        ul {
+            margin-left: 5px;
+            list-style: none;
+        }
+
+        li {
+            margin: 0.5rem 0;
+        }
+    }
+}
+
+.tag-list {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1.2rem;
+
+    h4 {
+        padding: 8px;
+        border-radius: 3px;
+        background-color: #727272;
+        text-align: center;
+    }
+}
+
+.sellers-list {
+    width: 90%;
+    padding: 1.5rem;
+    margin: 0 auto;
+
+    .seller {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 300px;
+        box-shadow: 0px 3px 5px #272727;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+
+        .text {
+            padding: 1.5rem;
+    
+            h4 {
+                font-size: 1.4rem;
+                color: black;
+                font-family: fantasy;
+                padding: 1rem;
+                margin-bottom: 1rem;
+                margin-top: 1.4rem;
+                letter-spacing: 1.4px;
+                text-transform: uppercase;
+            }
+    
+            p {
+                font-size: 1rem;
+                line-height: 1.5rem;
+                text-align: justify;
+                padding-left: 1rem;
+                padding-right: 2rem;
+                width: 85%;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }
+    
+        .img {
+            width: 100%;
+            height: 300px;
+
+            img {
+                max-width: 100%;
+                width: 100%;
+                max-height: 100%;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+
+
+}

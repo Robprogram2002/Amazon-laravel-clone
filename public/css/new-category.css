@@ -1,0 +1,289 @@
+.content-category {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.content-category .slide-bar {
+  border: 0.5px solid #525252;
+  border-bottom: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+.content-category .slide-bar h3 {
+  text-align: center;
+  color: #e47911;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-bottom: 0.4px solid #616161;
+}
+
+.content-category .slide-bar h4 {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0;
+}
+
+.content-category .slide-bar a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.content-category .slide-bar a:hover {
+  color: #db7004;
+  text-decoration: none;
+}
+
+.content-category .slide-bar a i {
+  color: #db7004;
+}
+
+.content-category .slide-bar .side-bar-section {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.4px solid #616161;
+}
+
+.content-category .main-section .header {
+  margin-bottom: 1rem;
+}
+
+.content-category .main-section h3 {
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: black;
+  margin: 1.5rem 1rem;
+  padding: 5px;
+}
+
+.content-category .main-section .welcome {
+  padding: 0.8rem;
+  padding-bottom: 0;
+  margin: 1rem auto;
+}
+
+.content-category .main-section .welcome h2 {
+  text-align: center;
+}
+
+.content-category .main-section .welcome p {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.content-category .main-section .subcategories-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 250px 250px;
+  grid-gap: 1.2rem;
+  margin: 1rem 1rem;
+}
+
+.content-category .main-section .subcategories-section .subcategory {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 3px 5px #333333;
+  border-radius: 5px;
+}
+
+.content-category .main-section .subcategories-section .subcategory:hover {
+  opacity: 0.7;
+}
+
+.content-category .main-section .subcategories-section .subcategory a {
+  text-decoration: none;
+}
+
+.content-category .main-section .subcategories-section .subcategory a:hover {
+  text-decoration: none;
+}
+
+.content-category .main-section .subcategories-section .subcategory img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.content-category .main-section .subcategories-section .subcategory h4 {
+  position: relative;
+  z-index: 10;
+  color: #333333;
+  font-size: 1.2rem;
+  text-align: center;
+  bottom: 1.8rem;
+  background-color: white;
+}
+
+.content-category .main-section .banner {
+  display: flex;
+  background-color: lightgreen;
+  height: 200px;
+  margin: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-category .main-section .banner i {
+  font-size: 8rem;
+  margin-right: 1.5rem;
+  color: white;
+}
+
+.content-category .main-section .banner .text {
+  width: 50%;
+}
+
+.content-category .main-section .banner .text h3 {
+  font-size: 3rem;
+  font-family: fantasy;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #191d2f;
+  margin-bottom: 0;
+}
+
+.content-category .main-section .banner .text h4 {
+  color: #191d2f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 1.2rem;
+}
+
+.content-category .main-section .banner .text p {
+  color: #191d2f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 1.2rem;
+}
+
+.content-category .main-section .products_sales {
+  margin: 1.5rem 0;
+}
+
+.content-category .main-section .products_sales .carousel-control-next,
+.content-category .main-section .products_sales .carousel-control-prev {
+  width: 3%;
+}
+
+.content-category .main-section .products_sales .carousel-control-next span,
+.content-category .main-section .products_sales .carousel-control-prev span {
+  color: black !important;
+  font-size: 4rem !important;
+  width: 3rem;
+  height: 3rem;
+  background-color: black !important;
+}
+
+.content-category .main-section .products_sales .carousel-inner {
+  padding: 0.5rem 2.5rem;
+}
+
+.content-category .main-section .products_sales .product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 350px;
+  grid-gap: 1.2rem;
+}
+
+.content-category .main-section .products_sales .product-container h4 {
+  font-size: 0.85rem;
+}
+
+.content-category .main-section .product {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0px 3px 5px #333333;
+}
+
+.content-category .main-section .product img {
+  max-height: 150px;
+  width: 100%;
+  height: 100%;
+}
+
+.content-category .main-section .product h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.content-category .main-section .product h4:hover {
+  color: #e47911;
+}
+
+.content-category .main-section .product p {
+  color: #525252;
+  padding: 0.1rem;
+  padding-left: 0.3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.content-category .main-section .product span {
+  font-size: 1.6rem;
+}
+
+.content-category .main-section .product .cost-original {
+  text-decoration: line-through;
+  color: #525252;
+  padding: 0px 6px;
+  font-size: 1.4rem;
+}
+
+.content-category .main-section .product .cost-discount {
+  color: black;
+  padding: 0px 6px;
+}
+
+.content-category .main-section .product .numbers {
+  text-align: end;
+  margin: 0;
+  margin-right: 0.8rem;
+}
+
+.content-category .main-section .product .rate {
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  bottom: 0.2rem;
+}
+
+.content-category .main-section .product .rate i {
+  color: #e47911;
+}
+
+.content-category .main-section .product a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-category .main-section .product a:hover {
+  text-decoration: none;
+  color: #e47911;
+}
+
+.content-category .main-section .product small.comments {
+  color: #525252;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: end;
+  margin-left: 50%;
+}
+
+.content-category .main-section .list-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  padding: 1.2rem;
+  grid-template-rows: 350px 350px 350px;
+}
+

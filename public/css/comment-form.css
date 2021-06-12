@@ -1,0 +1,87 @@
+.product-container .overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.product-container .comment-form {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 0.8px solid black;
+  box-shadow: 0px 3px 5px #333333;
+}
+
+.product-container .comment-form h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem;
+  padding-bottom: 0px;
+}
+
+.product-container .comment-form .fa-times-circle {
+  position: absolute;
+  top: 2.8rem;
+  right: 10rem;
+  color: red;
+  font-size: 1.4rem;
+}
+
+.product-container .comment-form .input-container label {
+  margin: 0.5rem 0;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+  display: block;
+  width: auto;
+}
+
+.product-container .comment-form .input-container input,
+.product-container .comment-form .input-container textarea {
+  width: 80%;
+  padding: 8px;
+  outline: none;
+  border: 0.4px solid #727171;
+  border-radius: 4px;
+}
+
+.product-container .comment-form .input-container .images-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.product-container .comment-form .input-container #input_rate {
+  width: 50%;
+  display: inline-block;
+}
+
+.product-container .comment-form .input-container input[type=submit] {
+  width: 35%;
+  background-color: #02002e;
+  color: white;
+  text-align: center;
+  margin: 0.2rem auto;
+  margin-left: 20rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.product-container .comment-form .input-container .rate {
+  margin: 1rem;
+  display: inline-block;
+  color: #fdc304;
+}
+
